@@ -38,5 +38,5 @@ test
 ```
 
 ## Challenge and Dataset
-For any information about the challenge, please visit the [official website](https://hilab-git.github.io/SegRap2025_Challenge/index.html).
+For any information about the challenge, please visit the [official website](https://hilab-git.github.io/SegRap2025_Challenge/).
 
