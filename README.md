@@ -7,7 +7,7 @@ starting point to develop your own final submitted algorithm.
 * Change the inference code (func **generate_segmentation** or something else) in **infer.py**.
 * Write the required Python libraries in the **requirements.txt** file with corret version.
   
-**[NOTE]** We recommend participants run **test_docker.sh** of the two tasks before submission to ensure the correctness building of your docker.
+**[NOTE]** We recommend that the participants should run **test_docker.sh** of the two tasks before submission to ensure the correct building of your docker.
 
 ## Description of the File Structure During the Final Test
 The test set of **Task01: GTV segmentation** consist of paired CT and ceCT images from two cohorts, and the image are organized as follows:
