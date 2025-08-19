@@ -2,6 +2,13 @@
 This repository provides a template to build Docker for SegRap2025 final submission, which you can use as a 
 starting point to develop your own final submitted algorithm.
 
+## Usage
+* Put the weight of used model and other things in the **resources** folder, or anywhere else, as long as they are used correctly in the code. 
+* Change the inference code (func **generate_segmentation** or something else) in **infer.py**.
+* Write the required Python libraries in the **requirements.txt** file with corret version.
+  
+**[NOTE]** We recommend that participants use **test_docker.sh** of the two tasks before submission to ensure the correctness of docker.
+
 ## Description of the File Structure During the Final Test
 The test set of **Task01: GTV segmentation** consist of paired CT and ceCT images from two cohorts, and the image are organized as follows:
 ```
@@ -36,11 +43,6 @@ test
  |       └──...
  └──output
 ```
-
-## Usage
-* Put the weight of used model and other things in the **resources** folder, or anywhere else, as long as they are used correctly in the code. 
-* Change the inference code (func **generate_segmentation** or something else) in **infer.py**.
-* Write the required Python libraries in the **requirements.txt** file with corret version.
 
 ## Challenge and Dataset
 For any information about the challenge, please visit the [official website](https://hilab-git.github.io/SegRap2025_Challenge/).
