@@ -37,6 +37,11 @@ test
  └──output
 ```
 
+## Usage
+* Put the weight of used model and other things in the **resources** folder, or anywhere else, as long as they are used correctly in the code. 
+* Change the inference code (func **generate_segmentation** or something else) in **infer.py**.
+* Write the required Python libraries in the **requirements.txt** file with corret version.
+
 ## Challenge and Dataset
 For any information about the challenge, please visit the [official website](https://hilab-git.github.io/SegRap2025_Challenge/).
 
