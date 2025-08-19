@@ -3,7 +3,7 @@ This repository provides a template to build Docker for SegRap2025 final submiss
 starting point to develop your own final submitted algorithm.
 
 ## Usage
-* Put the weight of used model and other things in the **resources** folder, or anywhere else, as long as they are used correctly in the code. 
+* Put the weight of used model and other things in the **resources** folder, or anywhere else, as long as they are used correctly in the code. If you don't put the used files into **resources** folder, you should change the codes in the corresponding **Dockerfile** correctly to ensure the used files are correctly copied.
 * Change the inference code (func **generate_segmentation** or something else) in **infer.py**.
 * Write the required Python libraries in the **requirements.txt** file with corret version.
   
