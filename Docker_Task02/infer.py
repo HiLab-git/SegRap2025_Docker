@@ -22,6 +22,7 @@ def run():
 
     ### 3. predict case by case
     for case in path_dict["image"].keys():
+        print("Predict: {}".format(case))
         # Convenient for participants to check whether their algorithm meet the time limit (3 mins per case).
         start = time.time()
 
@@ -43,7 +44,7 @@ def run():
         write_segmentation(seg_obj, save_path)
 
         end = time.time()
-        print("Predict: {}, Cost: {}s".format(case, end - start))
+        print("---------Cost: {}s---------".format(end - start))
 
 
 def generate_segmentation(CT: sitk.Image, ceCT: sitk.Image):
